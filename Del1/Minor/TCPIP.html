@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <link href="../stylesheet.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Webbens Historia</title>
+</head>
+<body>
+    <div class="header">
+        <div class="namn">
+            <h2>
+                Webbens Historia
+            </h2>
+        </div>
+        <div class="links">
+            <h2>
+                <a href="../Major/Index.html">Home</a>
+                :
+                <a href="../Major/Before.html">Före Internet</a>
+                :
+                <a href="../Major/Historia.html">Början på Internet</a>
+                :
+                <a href="../Major/Bubble.html">.com Bubblan</a>
+                :
+                <a href="../Major/Register.html">Register</a>
+            </h2>
+        </div>
+    </div>
+    <div class="main">
+    <h1>
+        TCP/IP
+    </h1>
+
+    <p>TCP/IP är en arkitektur för datakommunikation över nätverk med en struktur som delas upp i olika lager, på många sätt lik OSI-modellen. Där OSI-modellen innehåller sju lager innehåller TCP/IP-modellen fyra eller fem lager. TCP/IP står för Transmission Control Protocol/Internet Protocol och består av följande lager: applikationslagret, transportlagret, nätverkslagret, datalänklagret och det fysiska lagret. I 4-lagersmodellen är datalänklagret och det fysiska lagret sammanslaget till ett och kallas då för länklagret.</p>
+
+    <p>TCP/IP är en samling av flera olika protokoll och varje dator som använder TCP/IP kommer alltid ha en IP-adress, detta är för att datorer runt om i världen ska få rätt paket skickade till sig. Används ett internt nätverk kopplat till en router sker trafiken från olika datorer på samma IP-adress externt, men olika IP-adresser internt. I det interna nätverket är ofta IP-adresserna dynamiska, med hjälp av protokollet DHCP. Varje dator som kommunicerar i ett nätverk har ett nätverkskort med en unik mac-adress.</p>
+
+    <p>Beroende på att det interna och det externa nätverket, ofta internet, inte kontrollerar vad som kommuniceras skapas en möjlighet för kommunikation i höga hastigheter. Detta system är avgörande för framgången med internet och fungerar ungefär som posten, de struntar i vad du skickar och hur, bara brevet/paketet kommer fram. Skulle paketet inte komma fram, begärs omsändningar om transportlagerprotokollet TCP används.</p>
+
+    <p>Utvecklingen av TCP/IP startades av Defense Advanced Research Projects Agency (DARPA) som utvecklade Advanced Research Projects Agency Network <a href="Arpanet.html">(ARPANET)</a> under den senare delen av 1960-talet. ARPANET är föregångaren till det Internet vi har idag, och stängdes för gott så sent som 1989.</p>
+
+    <h1>
+        RFC 1122
+    </h1>
+
+    <p>Enligt Request for comment (RFC1122) diskuteras uppdelningen av protokoll i olika lager. Gemensamt för Applikationslagret är att kommunikation sker i klartext. Transportlagret hanterar kommunikation mellan datorers portar där TCP är säkrare på bekostnad av hastighet jämfört med UDP. TCP är det mest använda transportlagersprotokollet på Internet eftersom det kan hantera de fyra olika fel som kan inträffa vid paketöverföring i IP-nätverk. Paket kan dubbleras, anlända i fel ordning, försvinna eller vara korrupta vid ankomst. TCP kontrollerar alla dessa fel och begär omsändningar om något av ovanstående fel skulle inträffa. UDP däremot skickar iväg paket med hög hastighet helt utan felkontroll, vilket lämpar sig bland annat för online-spel och radiolyssnande över nätet.</p>
+    </div>
